@@ -15,8 +15,8 @@
 		445B281829932A7200CC3702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445B281629932A7200CC3702 /* LaunchScreen.storyboard */; };
 		445B28222993CC0500CC3702 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B28212993CC0500CC3702 /* DataModel.swift */; };
 		445B28252993CE1500CC3702 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B28242993CE1500CC3702 /* DataService.swift */; };
-		445B28272993D08600CC3702 /* PullUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B28262993D08600CC3702 /* PullUpController.swift */; };
 		445B282A2993D17500CC3702 /* InternshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B28292993D17500CC3702 /* InternshipViewController.swift */; };
+		445B284029942D8D00CC3702 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B283F29942D8D00CC3702 /* CollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		445B281929932A7200CC3702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445B28212993CC0500CC3702 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		445B28242993CE1500CC3702 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		445B28262993D08600CC3702 /* PullUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullUpController.swift; sourceTree = "<group>"; };
 		445B28292993D17500CC3702 /* InternshipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternshipViewController.swift; sourceTree = "<group>"; };
+		445B283F29942D8D00CC3702 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		C91D4F74112DB0C69C62E140 /* Pods-SurfInternship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurfInternship.release.xcconfig"; path = "Target Support Files/Pods-SurfInternship/Pods-SurfInternship.release.xcconfig"; sourceTree = "<group>"; };
 		EDC27B08AFB5F3EDC0282CC6 /* Pods_SurfInternship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SurfInternship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,9 +75,10 @@
 				445B280D29932A7000CC3702 /* SceneDelegate.swift */,
 				445B280F29932A7000CC3702 /* ViewController.swift */,
 				445B28242993CE1500CC3702 /* DataService.swift */,
-				445B28262993D08600CC3702 /* PullUpController.swift */,
 				445B28292993D17500CC3702 /* InternshipViewController.swift */,
 				445B281929932A7200CC3702 /* Info.plist */,
+				445B281429932A7200CC3702 /* Assets.xcassets */,
+				445B283F29942D8D00CC3702 /* CollectionCell.swift */,
 			);
 			path = SurfInternship;
 			sourceTree = "<group>";
@@ -93,7 +94,6 @@
 		445B28282993D10A00CC3702 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				445B281429932A7200CC3702 /* Assets.xcassets */,
 				445B281629932A7200CC3702 /* LaunchScreen.storyboard */,
 			);
 			path = SupportingFiles;
@@ -113,7 +113,6 @@
 				200A43E8CA998265709722B9 /* Pods-SurfInternship.debug.xcconfig */,
 				C91D4F74112DB0C69C62E140 /* Pods-SurfInternship.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -232,10 +231,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				445B281029932A7000CC3702 /* ViewController.swift in Sources */,
-				445B28272993D08600CC3702 /* PullUpController.swift in Sources */,
 				445B28222993CC0500CC3702 /* DataModel.swift in Sources */,
 				445B280C29932A7000CC3702 /* AppDelegate.swift in Sources */,
 				445B280E29932A7000CC3702 /* SceneDelegate.swift in Sources */,
+				445B284029942D8D00CC3702 /* CollectionCell.swift in Sources */,
 				445B28252993CE1500CC3702 /* DataService.swift in Sources */,
 				445B282A2993D17500CC3702 /* InternshipViewController.swift in Sources */,
 			);
