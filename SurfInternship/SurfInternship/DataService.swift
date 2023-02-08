@@ -10,7 +10,7 @@ import Foundation
 final class DataService {
     
     
-    func fetchNewsArticles(completion: @escaping (Result<DataModel, Error>) -> Void ) {
+    func fetchNewData(completion: @escaping (Result<DataModel, Error>) -> Void ) {
         
         let dataModel = DataModel(title: "Стажировка в Surf",
                                   description: "Работай над реальными задачами под руководством опытного наставника и получи возможность стать частью команды мечты.",
