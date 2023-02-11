@@ -1,16 +1,20 @@
 PODS:
+  - AlignedCollectionViewFlowLayout (1.1.2)
   - PullUpController (0.8.0)
 
 DEPENDENCIES:
+  - AlignedCollectionViewFlowLayout
   - PullUpController
 
 SPEC REPOS:
   trunk:
+    - AlignedCollectionViewFlowLayout
     - PullUpController
 
 SPEC CHECKSUMS:
+  AlignedCollectionViewFlowLayout: ee2ef451e741ec08f8e0967d828001e2f051c20a
   PullUpController: 2f7ccaa0f35b31b47e3efbe1854c7f781552b3c7
 
-PODFILE CHECKSUM: 42d57372e93b9f27ed214bbed092277c03ff0159
+PODFILE CHECKSUM: b16c19cd5f61b4ca8c08516a481fb31498209228
 
 COCOAPODS: 1.11.3
